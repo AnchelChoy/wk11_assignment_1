@@ -2,22 +2,19 @@
 
 table {
     border-collapse: collapse;
-    border: 2px solid black;
 }
 
 th, td {
-    border: 1px solid black;
     padding: 5px;
     text-align: center;
     vertical-align: top;
 }
 
-tbody td {
-    background-color: lightyellow;
+td {
+    background-color: bisque;
 }
 
 table col#firstCol {
-    background-color: rgb(104, 172, 211);
     width: 150px;
 }
 
@@ -26,17 +23,7 @@ table col#hourCol {
 }
 
 table thead {
-    background-color: rgba(17, 159, 184, 0.527);
-}
-
-.columns {
-    column-count: 3;
-    column-gap: 150px;
-    column-rule: 5px;
-}
-
-.columns h2 {
-    column-span: all;
+    background-color: rgb(43, 220, 255);
 }
 
 html {
@@ -48,10 +35,4 @@ body {
     margin: auto;
     font-family: Arial, sans-serif;
     font-size: 0.8em;
-}
-
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-    margin: 20px 0;
 }
